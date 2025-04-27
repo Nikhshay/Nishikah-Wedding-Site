@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life of my sister, Nishikah</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Left side: Flipbook area -->
+    <div class="flipbook-section">
+
+      <div class="page-header">
+        <h1>Life of my sister, Nishikah</h1>
+      </div>
+
+      <div class="flipbook-wrapper">      
+        <div class="hologram">
+          <div class="hologram-inner" id="hologram"></div>
+        </div>
+      </div>
+
+      <!-- Buttons BELOW the book -->
+      <div class="buttons">
+        <button onclick="prevMemory()">◀ Prev</button>
+        <h2 id="memory-title"></h2>
+        <button onclick="nextMemory()">Next ▶</button>
+      </div>
+
+    </div> <!-- Closing flipbook-section properly -->
+
+    <!-- Right side: Timeline navigation -->
+    <div class="timeline-nav">
+      <ul id="timeline-list"></ul>
+    </div>
+
+  </div> <!-- Closing container properly -->
+
+  <script src="js/script.js"></script>
+</body>
+</html>
